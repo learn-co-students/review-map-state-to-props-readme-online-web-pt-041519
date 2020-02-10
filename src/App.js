@@ -30,11 +30,12 @@ class App extends Component {
           <p>{this.props.items.length}</p>
       </div>
     );
+  
   }
 }
 
 const mapStateToProps = (state) => {
-  debugger;
+  // debugger;
   return { items: state.items }
 }
 
